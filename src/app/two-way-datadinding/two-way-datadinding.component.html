@@ -1,0 +1,13 @@
+<div>
+    <input [(ngModel)]="uname" placeholder="Enter your name">
+    <h1> Name-  {{uname}}</h1>
+</div>
+
+<form>
+    <H1>Login</H1>
+    <label for="name">UserName</label>
+    <input type="text" name="name" [(ngModel)]="Logname">
+    <label for="Pass">Password</label>
+    <input type="text" name="Pass" [(ngModel)]="pid">
+    <input type="button" value="Log in" (click)="Login()">
+</form>
